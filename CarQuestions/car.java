@@ -129,4 +129,44 @@ package CarQuestions;
 //}
 
 //q10
+//class Q10 {
+//    static int staticVar = 10;
+//    int instanceVar = 20;
+//
+//    void show() {
+//        int localVar = 30;
+//        System.out.println("Static = " + staticVar);
+//        System.out.println("Instance = " + instanceVar);
+//        System.out.println("Local = " + localVar);
+//    }
+//
+//    public static void main(String[] args) {
+//        Q10 obj = new Q10();
+//        obj.show();
+//    }
+//}
+
+//q11
+//class Q11 {
+//    static int x;
+//    public static void main(String[] args) {
+//        System.out.println("Default value of x = " + x);
+//        x = 50;
+//        System.out.println("After assigning, x = " + x);
+//    }
+//}
+
+//q12
+class Q12 {
+    final int userId;
+
+    Q12(int userId) {
+        this.userId = userId;
+    }
+
+    public static void main(String[] args) {
+        Q12 u = new Q12(101);
+        System.out.println("User ID = " + u.userId);
+    }
+}
 
