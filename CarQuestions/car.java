@@ -157,16 +157,27 @@ package CarQuestions;
 //}
 
 //q12
-class Q12 {
-    final int userId;
+//class Q12 {
+//    final int userId;
+//
+//    Q12(int userId) {
+//        this.userId = userId;
+//    }
+//
+//    public static void main(String[] args) {
+//        Q12 u = new Q12(101);
+//        System.out.println("User ID = " + u.userId);
+//    }
+//}
 
-    Q12(int userId) {
-        this.userId = userId;
-    }
-
-    public static void main(String[] args) {
-        Q12 u = new Q12(101);
-        System.out.println("User ID = " + u.userId);
-    }
-}
-
+//q13
+//class A {
+//    static int x = 10;
+//}
+//
+//class B {
+//    public static void main(String[] args) {
+//        A.x = 50;   // change static variable from A
+//        System.out.println("Value of x = " + A.x);
+//    }
+//}
