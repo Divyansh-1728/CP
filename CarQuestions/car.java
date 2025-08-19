@@ -16,24 +16,23 @@ package CarQuestions;
 //}
 
 //Q2
-class Car {
-    String model;
-    int year;
-    static int numberOfCars = 0;
-
-    Car(String model, int year) {
-        this.model = model;
-        this.year = year;
-        numberOfCars++;
-    }
-
-    public static void main(String[] args) {
-        Car c1 = new Car("Honda", 2020);
-        Car c2 = new Car("Swift", 2018);
-
-        System.out.println("Total number of cars created: " + Car.numberOfCars);
-    }
-}
+//class Car {
+//    String model;
+//    int year;
+//    static int numberOfCars = 0;
+//
+//    Car(String model, int year) {
+//        this.model = model;
+//        this.year = year;
+//        numberOfCars++;
+//    }
+//    public static void main(String[] args) {
+//        Car c1 = new Car("Honda", 2020);
+//        Car c2 = new Car("Swift", 2018);
+//
+//        System.out.println("Total number of cars created: " + Car.numberOfCars);
+//    }
+//}
 
 //q3
 //class Q3 {
@@ -81,4 +80,53 @@ class Car {
 //    }
 //}
 
+//q6
+//class Q6 {
+//    int number = 100;  // instance variable
+//
+//    void display() {
+//        int number = 50;  // local variable
+//        System.out.println("Local variable: " + number);
+//        System.out.println("Instance variable: " + this.number);
+//    }
+//
+//    public static void main(String[] args) {
+//        Q6 obj = new Q6();
+//        obj.display();
+//    }
+//}
+
+
+//q7
+//class Q7 {
+//    final int value = 10;
+//    public static void main(String[] args) {
+//        Q7 obj = new Q7();
+//    }
+//}
+
+//q8
+//class Q8 {
+//    static int a;
+//    static {
+//        a = 50;
+//        System.out.println("Static block executed, a = " + a);
+//    }
+//    public static void main(String[] args) {
+//        System.out.println("Inside main, a = " + a);
+//    }
+//}
+
+//q9
+//class Q9 {
+//    String accountHolder;
+//    double balance;
+//    public static void main(String[] args) {
+//        Q9 acc = new Q9();
+//        System.out.println("Name: " + acc.accountHolder);
+//        System.out.println("Balance: " + acc.balance);
+//    }
+//}
+
+//q10
 
