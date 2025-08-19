@@ -232,3 +232,19 @@ package CarQuestions;
 //    }
 //}
 
+
+//q18
+class Q18 {
+    int num = 100; // instance
+
+    void test() {
+        int num = 50; // local
+        System.out.println("Local num = " + num);
+        System.out.println("Instance num = " + this.num);
+    }
+
+    public static void main(String[] args) {
+        Q18 obj = new Q18();
+        obj.test();
+    }
+}
