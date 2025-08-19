@@ -198,19 +198,37 @@ package CarQuestions;
 //}
 
 //q15
-class Q15 {
-    int count = 0;
+//class Q15 {
+//    int count = 0;
+//
+//    void increase() {
+//        count++;
+//    }
+//    void show() {
+//        System.out.println("Count = " + count);
+//    }
+//    public static void main(String[] args) {
+//        Q15 obj = new Q15();
+//        obj.increase();
+//        obj.increase();
+//        obj.show();
+//    }
+//}
 
-    void increase() {
-        count++;
-    }
-    void show() {
-        System.out.println("Count = " + count);
-    }
-    public static void main(String[] args) {
-        Q15 obj = new Q15();
-        obj.increase();
-        obj.increase();
-        obj.show();
-    }
-}
+
+//q16
+//class Q16 {
+//    public static void main(String[] args) {
+//        int x;
+//    }
+//}
+
+//q17
+//class Q17 {
+//    static final double PI = 3.14;
+//
+//    public static void main(String[] args) {
+//        System.out.println("Pi = " + PI);
+//    }
+//}
+
