@@ -181,3 +181,36 @@ package CarQuestions;
 //        System.out.println("Value of x = " + A.x);
 //    }
 //}
+
+//q14
+//class Q14 {
+//    int age;
+//
+//    void setAge(int age) {
+//        this.age = age;   // this keyword
+//    }
+//
+//    public static void main(String[] args) {
+//        Q14 p = new Q14();
+//        p.setAge(25);
+//        System.out.println("Age = " + p.age);
+//    }
+//}
+
+//q15
+class Q15 {
+    int count = 0;
+
+    void increase() {
+        count++;
+    }
+    void show() {
+        System.out.println("Count = " + count);
+    }
+    public static void main(String[] args) {
+        Q15 obj = new Q15();
+        obj.increase();
+        obj.increase();
+        obj.show();
+    }
+}
