@@ -15,6 +15,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //Q2
 //class Car {
 //    String model;
@@ -34,6 +35,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q3
 //class Q3 {
 //    void show() {
@@ -47,6 +49,7 @@ package CarQuestions;
 //
 //    }
 //}
+
 
 //q4
 //class Q4 {
@@ -67,6 +70,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q5
 //class Q5 {
 //    static int num = 0;
@@ -79,6 +83,7 @@ package CarQuestions;
 //        System.out.println("Value from object b: " + b.num); // Shows 5
 //    }
 //}
+
 
 //q6
 //class Q6 {
@@ -105,6 +110,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q8
 //class Q8 {
 //    static int a;
@@ -117,6 +123,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q9
 //class Q9 {
 //    String accountHolder;
@@ -127,6 +134,7 @@ package CarQuestions;
 //        System.out.println("Balance: " + acc.balance);
 //    }
 //}
+
 
 //q10
 //class Q10 {
@@ -146,6 +154,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q11
 //class Q11 {
 //    static int x;
@@ -155,6 +164,7 @@ package CarQuestions;
 //        System.out.println("After assigning, x = " + x);
 //    }
 //}
+
 
 //q12
 //class Q12 {
@@ -170,6 +180,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q13
 //class A {
 //    static int x = 10;
@@ -181,6 +192,7 @@ package CarQuestions;
 //        System.out.println("Value of x = " + A.x);
 //    }
 //}
+
 
 //q14
 //class Q14 {
@@ -196,6 +208,7 @@ package CarQuestions;
 //        System.out.println("Age = " + p.age);
 //    }
 //}
+
 
 //q15
 //class Q15 {
@@ -223,6 +236,7 @@ package CarQuestions;
 //    }
 //}
 
+
 //q17
 //class Q17 {
 //    static final double PI = 3.14;
@@ -249,18 +263,29 @@ package CarQuestions;
 //    }
 //}
 
+
 //q19
-class Q19 {
-    int value;
+//class Q19 {
+//    int value;
+//
+//    public static void main(String[] args) {
+//        Q19 a = new Q19();
+//        Q19 b = new Q19();
+//
+//        a.value = 10;
+//        b.value = 20;
+//
+//        System.out.println("a.value = " + a.value);
+//        System.out.println("b.value = " + b.value);
+//    }
+//}
 
+
+//q20
+class Q20 {
+    static int count = 10;
     public static void main(String[] args) {
-        Q19 a = new Q19();
-        Q19 b = new Q19();
-
-        a.value = 10;
-        b.value = 20;
-
-        System.out.println("a.value = " + a.value);
-        System.out.println("b.value = " + b.value);
+        System.out.println(Q20.count);
     }
 }
+
