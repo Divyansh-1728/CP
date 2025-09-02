@@ -496,7 +496,7 @@ public class Assignment_5 {
         }
     }
 
-   
+
     public static char[] uniqueChars(String text) {
         int n = text.length();
         char[] result = new char[n];
