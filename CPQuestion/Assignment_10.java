@@ -225,7 +225,7 @@ public static void main(String[] args) {
         pg.displayStudent();
 
         System.out.println("\n=== Book Library System ===");
-        EBook eb = new EBook("123-456", "Java Basics", "James Gosling");
+        EBook eb = new EBook("123-456", "Java Basics",9.8);
         eb.displayBook();
 
         System.out.println("\n=== Bank Account Management ===");
@@ -238,7 +238,6 @@ public static void main(String[] args) {
         System.out.println("\n=== Employee Records ===");
         Manager m = new Manager(201, "IT", 60000);
         m.displayEmployee();
-        m.manage(70000);
         m.displayEmployee();
     }
 }
